@@ -1,0 +1,51 @@
+{
+  "name": "aei-eicas-backend-processes",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www",
+    "test-jenkins": "JUNIT_REPORT_PATH=$(pwd)/export.xml mocha --colors --reporter mocha-jenkins-reporter ./test/specs/Unit/*.js",
+    "pree2e": "webdriver-manager update --gecko false --standalone false,",
+    "e2e": "protractor"
+  },
+  "dependencies": {
+    "@grpc/proto-loader": "0.1.0",
+    "async": "1.5.2",
+    "body-parser": "1.13.2",
+    "chai": "4.1.1",
+    "cors": "2.7.1",
+    "debug": "2.2.0",
+    "del": "2.2.0",
+    "express": "4.13.1",
+    "gulp": "3.9.1",
+    "gulp-jshint": "2.0.0",
+    "gulp-usemin": "0.3.21",
+    "grpc": "1.23.3",
+    "google-protobuf": "3.0.0",
+    "highcharts": "5.0.12",
+    "jade": "1.11.0",
+    "jasmine-reporters": "2.2.1",
+    "jshint": "2.9.1",
+    "jshint-stylish": "2.1.0",
+    "jsonwebtoken": "5.7.0",
+    "lodash": "4.6.1",
+    "minimist": "1.2.0",
+    "mocha": "3.5.0",
+    "mocha-jenkins-reporter": "^0.3.9",
+    "moment": "2.15.2",
+    "morgan": "1.6.1",
+    "mysql": "2.16.0",
+    "mysql2": "^1.6.5",
+    "node-excel-export": "1.2.0",
+    "passport": "0.3.2",
+    "passport-local": "1.0.0",
+    "passport-local-mongoose": "4.0.0",
+    "q": "1.5.0",
+    "serve-favicon": "2.3.0",
+    "sequelize": "4.44.2",
+    "winston": "2.3.1"
+  },
+  "devDependencies": {
+    "pm2": "1.1.1"
+  }
+}

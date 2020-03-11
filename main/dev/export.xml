@@ -1,0 +1,28 @@
+<testsuites name="Mocha Tests">
+  <testsuite name="Prueba del método check que nos devuelve el color de la alerta" tests="3" errors="0" failures="0" skipped="0" timestamp="2017-09-19T18:55:51" time="0.007">
+    <testcase classname="Prueba del método check que nos devuelve el color de la alerta" name="Se espera Verde " time="0.002">
+    </testcase>
+    <testcase classname="Prueba del método check que nos devuelve el color de la alerta" name="Se espera Amarillo " time="0.001">
+    </testcase>
+    <testcase classname="Prueba del método check que nos devuelve el color de la alerta" name="Se espera Rojo " time="0">
+    </testcase>
+  </testsuite>
+  <testsuite name="Prueba del método getFilter que nos devuelve el filtro para hacer la consulta" tests="3" errors="0" failures="0" skipped="0" timestamp="2017-09-19T18:55:51" time="0.01">
+    <testcase classname="Prueba del método getFilter que nos devuelve el filtro para hacer la consulta" name="Se espera filtro GMD Current" time="0.003">
+    </testcase>
+    <testcase classname="Prueba del método getFilter que nos devuelve el filtro para hacer la consulta" name="Se espera filtro WSC3 Current" time="0.003">
+    </testcase>
+    <testcase classname="Prueba del método getFilter que nos devuelve el filtro para hacer la consulta" name="Se espera Filtro para Activaciones Current " time="0">
+    </testcase>
+  </testsuite>
+  <testsuite name="Prueba del método getFilter que nos devuelve el filtro para hacer la consulta" tests="4" errors="0" failures="0" skipped="0" timestamp="2017-09-19T18:55:51" time="0.006">
+    <testcase classname="Prueba del método getFilter que nos devuelve el filtro para hacer la consulta" name="Se espera filtro Mid Integer Cuenta" time="0.001">
+    </testcase>
+    <testcase classname="Prueba del método getFilter que nos devuelve el filtro para hacer la consulta" name="Se espera filtro Mid Integer Linea" time="0">
+    </testcase>
+    <testcase classname="Prueba del método getFilter que nos devuelve el filtro para hacer la consulta" name="Se espera Filtro para Collector Cuenta " time="0">
+    </testcase>
+    <testcase classname="Prueba del método getFilter que nos devuelve el filtro para hacer la consulta" name="Se espera Filtro para Collector Linea " time="0">
+    </testcase>
+  </testsuite>
+</testsuites>

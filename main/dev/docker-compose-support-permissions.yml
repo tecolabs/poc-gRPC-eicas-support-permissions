@@ -1,0 +1,12 @@
+support-permissions:
+  image: "devops01.incubator.com:5000/com.telecom.eicas-support-permissions.${PIPELINE_VERSION}"
+  container_name: support_permissions
+  ports:
+    - "50051:50051"
+  environment:
+    - log=${LOG}
+    - IP_HOST = ${IP_HOST}
+    - MYSQL_IP=${MYSQL_IP}
+    - MYSQL_DATABASE=${MYSQL_DATABASE}
+    - MYSQL_USER=${MYSQL_USER}
+    - MYSQL_PASSWORD=${MYSQL_PASSWORD}
