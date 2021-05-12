@@ -20,7 +20,7 @@
     "gulp": "3.9.1",
     "gulp-jshint": "2.0.0",
     "gulp-usemin": "0.3.21",
-    "grpc": "1.23.3",
+    "grpc": "1.24.9",
     "google-protobuf": "3.0.0",
     "highcharts": "5.0.12",
     "jade": "1.11.0",
